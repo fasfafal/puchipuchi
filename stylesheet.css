@@ -1,0 +1,32 @@
+  .header {
+    height: 65px;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .main {
+    background-color: #cccccc;
+    padding:100px 80px;
+    
+  }
+  
+  .footer {
+    background-color: #999999;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+  }  
+  .message {
+    text-align: center;
+    padding: 15px 40px;
+    background-color: #5dca88;
+    box-shadow: 0 7px #1a7940;
+  }
+
+  .message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+  }
+  .parent {
+    text-align: center;
+  }
