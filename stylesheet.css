@@ -1,4 +1,4 @@
-  .header {
+ .header {
     height: 65px;
     width: 100%;
     background-color: #ffffff;
@@ -30,3 +30,13 @@
   .parent {
     text-align: center;
   }
+  .sakura {
+    position: fixed;
+    height: 10px;
+    width: 10px;
+    background-color: pink;
+    border-radius: 50%;
+    /* 初期状態は画面外 */
+    bottom: -10px;
+  }
+  

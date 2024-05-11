@@ -3,6 +3,7 @@ let original = true;
 
   function changeWords() {
     let buttons = document.querySelectorAll(".changeable");
+    let cleckCount = '';
         clickCount +='ごめんなさい';
         document.getElementById("clickCount").innerText = ` ${clickCount}`;
         
@@ -32,9 +33,13 @@ let original = true;
             button.disabled = true ;
             document.querySelector("a.no-click").classList.remove("no-click");
            });//ボタンを無効にする
+           
         }, 10000); // 10000ミリ秒後に実行
      
-          
+        setTimeout(function(){
+          document.getElementById("finish").innerText = "忙しいと思うので、もうそろそろ終わったほうがいいですよ";
+         },20000);
        
     original = !original; // 状態を反転させる
   }
+  
